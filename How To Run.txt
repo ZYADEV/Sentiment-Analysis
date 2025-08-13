@@ -1,0 +1,4 @@
+First Step :
+    Execute : pip install -r streamlit_requirements.txt
+Second Step :
+    Execute : streamlit run sentiment_analysis_streamlit_app.py
