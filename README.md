@@ -37,4 +37,5 @@ The following models are implemented in this project:
     ```
 
 ## Demo
-<video src="Demo%20Video/IMDB%20Sentiment%20Analysis.mp4)" controls title="Demo Video"></video>
+
+[Demo Video](https://github.com/ZYADEV/Sentiment-Analysis/blob/main/Demo%20Video/IMDB%20Sentiment%20Analysis.mp4)
