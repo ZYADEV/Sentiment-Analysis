@@ -37,5 +37,4 @@ The following models are implemented in this project:
     ```
 
 ## Demo
-
-Demo Video/IMDB Sentiment Analysis.mp4
+<video src="Demo%20Video/IMDB%20Sentiment%20Analysis.mp4)" controls title="Demo Video"></video>
