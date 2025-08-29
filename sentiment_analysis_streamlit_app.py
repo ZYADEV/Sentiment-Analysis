@@ -106,7 +106,7 @@ def load_models():
     
     # Load Logistic Regression
     try:
-        lr_data = joblib.load('models/logistic_regression_model.pkl')
+        lr_data = joblib.load('Models/logistic_regression_model.pkl')
         models['Logistic Regression'] = lr_data
         st.success("✅ Logistic Regression model loaded")
     except:
@@ -114,7 +114,7 @@ def load_models():
     
     # Load MLP
     try:
-        mlp_data = joblib.load('models/mlp_neural_network_model.pkl')
+        mlp_data = joblib.load('Models/mlp_neural_network_model.pkl')
         models['MLP Neural Network'] = mlp_data
         st.success("✅ MLP Neural Network model loaded")
     except:
@@ -122,8 +122,8 @@ def load_models():
     
     # Load LSTM
     try:
-        lstm_checkpoint = torch.load('models/lstm_model_improved.pth', map_location='cpu')
-        lstm_preprocessing = pickle.load(open('models/lstm_preprocessing.pkl', 'rb'))
+        lstm_checkpoint = torch.load('Models/lstm_model_improved.pth', map_location='cpu')
+        lstm_preprocessing = pickle.load(open('Models/lstm_preprocessing.pkl', 'rb'))
         
         # Reconstruct LSTM model
         lstm_model = SentimentLSTM(
