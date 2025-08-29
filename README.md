@@ -29,7 +29,7 @@ The following models are implemented in this project:
 
 1.  **Install the dependencies:**
     ```bash
-    pip install -r streamlit_requirements.txt
+    pip install -r requirements.txt
     ```
 2.  **Run the Streamlit app:**
     ```bash
